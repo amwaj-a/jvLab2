@@ -26,9 +26,9 @@ for (let index = 0; index <= 10; index++) {
   } else {
     // index = index - x;
     console.log(index + "index");
-    x = -index;
-    index = index + x;
-    console.log(+"x");
+    x = index + x;
+    // index = index + x;
+    console.log(x);
   }
 }
 
